@@ -1,8 +1,15 @@
-export function rando(arr) {
+const generate = document.getElementById("generate");
+const blogName = document.getElementById("name");
+
+generate.addEventListener("click", () => {
+  blogName.innerText = getBlogName();
+});
+
+function rando(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-export function getFunPassword() {
+function getBlogName() {
   const adjectives = [
     `adorable`,
     `beautiful`,
