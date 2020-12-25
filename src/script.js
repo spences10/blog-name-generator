@@ -1,15 +1,8 @@
-const generate = document.getElementById("generate");
-const blogName = document.getElementById("name");
-
-generate.addEventListener("click", () => {
-  blogName.innerText = getBlogName();
-});
-
 function rando(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(Math.random() * arr.length)]
 }
 
-function getBlogName() {
+export const getBlogName = () => {
   const adjectives = [
     `adorable`,
     `beautiful`,
@@ -47,7 +40,7 @@ function getBlogName() {
     `thoughtless`,
     `uptight`,
     `worried`,
-  ];
+  ]
 
   const verbs = [
     `chronicle`,
@@ -96,7 +89,7 @@ function getBlogName() {
     `chalk`,
     `ink`,
     `doodle`,
-  ];
+  ]
 
   const nouns = [
     `weblog`,
@@ -165,11 +158,9 @@ function getBlogName() {
     `reminiscences`,
     `autobiography`,
     `life`,
-    `record`,
+    `record book`,
     `book`,
-    `book`,
-    `life`,
-    `story`,
+    `life story`,
     `personal`,
     `recollections`,
     `archives`,
@@ -181,8 +172,7 @@ function getBlogName() {
     `chronicon`,
     `written`,
     `account`,
-    `document`,
-    `file`,
+    `document file`,
     `documentation`,
     `evidence`,
     `dossier`,
@@ -218,42 +208,28 @@ function getBlogName() {
     `casebook`,
     `muniment`,
     `inscription`,
-    `case`,
-    `study`,
-    `case`,
-    `history`,
-    `written`,
-    `material`,
-    `paper`,
-    `trail`,
-    `swindle`,
-    `sheet`,
+    `case study`,
+    `case history`,
+    `written material`,
+    `paper trail`,
+    `swindle sheet`,
     `procès-verbal`,
     `records`,
     `chronicles`,
-    `balance`,
-    `sheet`,
+    `balance sheet`,
     `compendium`,
     `accounts`,
     `summary`,
-    `account`,
-    `book`,
-    `encyclopediaUS`,
+    `account book`,
     `publication`,
     `muniments`,
-    `encyclopaediaUK`,
-    `reference`,
-    `book`,
-    `financial`,
-    `statement`,
-    `statement`,
-    `files`,
-    `annual`,
-    `handbook`,
-    `registers`,
-    `submission`,
-    `form`,
-    `documents`,
+    `encyclopaedia`,
+    `reference book`,
+    `financial statement`,
+    `statement files`,
+    `annual handbook`,
+    `registers submission`,
+    `form documents`,
     `results`,
     `affairs`,
     `paper`,
@@ -262,12 +238,10 @@ function getBlogName() {
     `journals`,
     `detail`,
     `scrapbook`,
-    `FilofaxTM`,
+    `filofax`,
     `datebook`,
     `album`,
-    `book`,
-    `of`,
-    `account`,
+    `book of account`,
     `ephemeris`,
     `workbook`,
     `guidebook`,
@@ -285,8 +259,7 @@ function getBlogName() {
     `return`,
     `tabulation`,
     `saga`,
-    `memo`,
-    `pad`,
+    `memo pad`,
     `doings`,
     `dealings`,
     `goings-on`,
@@ -307,9 +280,9 @@ function getBlogName() {
     `public`,
     `records`,
     `epic`,
-  ];
+  ]
 
-  return `${rando(verbs)} ${rando(adjectives)} ${rando(adjectives)} ${rando(
-    nouns
-  )}`;
+  return `${rando(verbs)} ${rando(adjectives)} ${rando(
+    adjectives
+  )} ${rando(nouns)}`
 }
