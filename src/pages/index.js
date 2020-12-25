@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { Box, Container } from 'theme-ui'
+import { Box } from 'theme-ui'
 import { getBlogName } from '../script'
 
 export default function Home() {
   const [blogName, blogNameSet] = useState(`Your Blog Name here!!`)
   return (
-    <Container>
+    <>
       <Box as="h1" variant="styles.h1">
         Blog Name Generator
       </Box>
@@ -21,6 +21,6 @@ export default function Home() {
       >
         Get Name
       </Box>
-    </Container>
+    </>
   )
 }

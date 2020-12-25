@@ -1,7 +1,12 @@
 export default {
+  sizes: { container: 640 },
   styles: {
-    h1: { fontSize: '3rem' },
-    h2: { fontSize: '4rem' },
+    h1: { fontSize: '3rem', textAlign: 'center' },
+    h2: {
+      fontSize: '4rem',
+      textTransform: 'capitalize',
+      textAlign: 'center',
+    },
     button: {
       marginTop: '5rem',
       padding: '3rem 6rem',
