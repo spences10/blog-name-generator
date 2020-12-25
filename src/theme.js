@@ -1,6 +1,7 @@
 export default {
   styles: {
-    p: { color: '#639' },
+    h1: { fontSize: '3rem' },
+    h2: { fontSize: '4rem' },
     button: {
       marginTop: '5rem',
       padding: '3rem 6rem',
