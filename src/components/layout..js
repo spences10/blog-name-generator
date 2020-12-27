@@ -12,7 +12,7 @@ export const Layout = ({ children }) => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100vh',
+        minHeight: '100vh',
         overflow: 'hidden',
       }}
     >
