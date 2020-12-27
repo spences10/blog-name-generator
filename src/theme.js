@@ -2,21 +2,21 @@ export default {
   sizes: { container: 640 },
   fonts: {
     heading: 'gorditas',
-    body: '',
+    body: 'inder',
     mono: '',
   },
   styles: {
     h1: {
       fontSize: '3rem',
       textAlign: 'center',
-      fontFamily: 'heading',
+      fontFamily: 'body',
     },
     h2: {
       fontSize: '4rem',
       textTransform: 'capitalize',
       textAlign: 'center',
       height: '4rem',
-      fontFamily: 'heading',
+      fontFamily: 'gorditas',
     },
     button: {
       padding: '3rem 6rem',
@@ -28,6 +28,12 @@ export default {
       fontSize: '2rem',
       width: '75vw',
       margin: '0 1rem',
+      fontFamily: 'body',
+    },
+    root: {
+      body: {
+        fontFamily: 'body',
+      },
     },
   },
 }
