@@ -5228,12 +5228,12 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
-fontsource-gorditas@^4.0.0:
+fontsource-gorditas@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fontsource-gorditas/-/fontsource-gorditas-4.0.0.tgz#7ddc1412574ae5f260c2775995ba780d49da4c50"
   integrity sha512-/T+Zfrzx9+2WDuUUgr8/PEdobGc61qcpiexuWhpFt5DJmzjQMu7ItoH0q2ZDwLfeug2/EmHu62sxMNKCuZPTTw==
 
-fontsource-inder@^4.0.0:
+fontsource-inder@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fontsource-inder/-/fontsource-inder-4.0.0.tgz#579b9af02b10a550535839553e673107d762c054"
   integrity sha512-mgxQHbXV65We9kkc93d7HsM3AkR8OanVNmkGk1os/avIUCWqocEZ6v3ROgZMev0SA+RVf3M2Idq4kFlnrZsj5Q==
