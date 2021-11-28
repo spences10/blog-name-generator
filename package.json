@@ -27,7 +27,7 @@
     "theme-ui": "0.12.1"
   },
   "devDependencies": {
-    "prettier": "2.4.1"
+    "prettier": "2.5.0"
   },
   "prettier": {
     "singleQuote": true,
