@@ -17,7 +17,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "axios": "0.24.0",
+    "axios": "0.25.0",
     "fontsource-gorditas": "4.0.0",
     "fontsource-inder": "4.0.0",
     "gatsby": "4.5.3",
